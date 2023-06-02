@@ -1,0 +1,28 @@
+server:
+  port: 8181
+spring:
+  application:
+    name: YourServiceName
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "Change according to your project requirement"
+            allowedMethods: "Change according to your project requirement"
+            allowedHeaders: "Change according to your project requirement"
+    consul:
+      enabled: true
+      host: localhost
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+        enabled: true
+        health-check-path: add your actuator path
+        health-check-timeout: 20s
+        heartbeat:
+          enabled: true
+      retry:
+        max-interval: 21
+
+
