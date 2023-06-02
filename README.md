@@ -16,39 +16,59 @@
 Consul is a powerful service discovery and configuration tool that enables dynamic service registration and discovery in a distributed system. By integrating Consul with the Spring Cloud Config Gateway, you can take advantage of the following benefits:
   
   # Microservices Architecture: 
-       •	Consul enables a microservices architecture by providing a scalable and flexible way to discover and connect services. 
-       •	Each microservice can register itself with Consul, allowing other services to discover and interact with it seamlessly.
+  
+   •	Consul enables a microservices architecture by providing a scalable and flexible way to discover and connect services. 
+   •	Each microservice can register itself with Consul, allowing other services to discover and interact with it seamlessly.
+       
        
    # Dynamic Scaling:
-       •	With Consul, you can easily scale your services horizontally by creating multiple instances of a service.
-       •	Each instance can register itself with Consul, and the load balancer can distribute traffic among them, ensuring high availability and scalability.
+   
+   •	With Consul, you can easily scale your services horizontally by creating multiple instances of a service.
+   •	Each instance can register itself with Consul, and the load balancer can distribute traffic among them, ensuring high availability and scalability.
        
    # Load Balancing: 
-       •	Consul's built-in load balancing capabilities allow for distributing traffic across multiple instances of a service. 
-       •	This helps optimize resource utilization and ensures that requests are evenly distributed, resulting in better performance and fault tolerance.
+   
+   •	Consul's built-in load balancing capabilities allow for distributing traffic across multiple instances of a service. 
+   •	This helps optimize resource utilization and ensures that requests are evenly distributed, resulting in better performance and fault tolerance.
 
    # Health Checking: 
-       •	Consul can periodically check the health of registered services.
-       •	If a service becomes unhealthy or unresponsive, Consul can automatically remove it from the service registry, preventing traffic from being routed to           it. 
-       •	This helps maintain system stability and reliability.
+   
+   •	Consul can periodically check the health of registered services.
+   •	If a service becomes unhealthy or unresponsive, Consul can automatically remove it from the service registry, preventing traffic from being routed to           it. 
+   •	This helps maintain system stability and reliability.
 
    # Actuator Integration:
-       •	Spring Boot Actuator, when combined with Consul, provides powerful insights into the health, metrics, and other management endpoints of your                   services. 
-       •	This enables you to monitor and manage your distributed system effectively.
+   
+   •	Spring Boot Actuator, when combined with Consul, provides powerful insights into the health, metrics, and other management endpoints of your                    services. 
+   •	This enables you to monitor and manage your distributed system effectively.
 
    # Collaboration Across Teams:
-       •	Consul acts as a central registry for services, making it easier for different teams to collaborate. Teams can register and discover services                   independently, without direct knowledge of each other's implementations.
-       •	This decoupling facilitates efficient communication and promotes autonomy.
+   
+   •	Consul acts as a central registry for services, making it easier for different teams to collaborate. Teams can register and discover services                  independently, without direct knowledge of each other's implementations.
+   •	This decoupling facilitates efficient communication and promotes autonomy.
        
        
  # Getting Started
  
  To get started with the Spring Cloud Config Gateway and Consul, follow these steps:
  
- 1. Start Consul in development mode by running the following command in your terminal:
-     consul agent -dev
+   •	Start Consul in development mode by running the following command in your terminal:
+   
+       	consul agent -dev
+        
+   This will start the Consul agent locally on your machine, and it will be accessible at
+   
+         http://localhost:8500  
        
-    
-
+   •	Clone the repository to your local machine:
+   
+        	 https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
+          
+        
+        	 https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
+          
+          
+         	https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
+        
 
 
