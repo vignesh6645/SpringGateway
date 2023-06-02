@@ -54,14 +54,14 @@ Consul is a powerful service discovery and configuration tool that enables dynam
  
    •	Start Consul in development mode by running the following command in your terminal:
    
-       	consul agent -dev
+       consul agent -dev
         
    This will start the Consul agent locally on your machine, and it will be accessible at
    
-         http://localhost:8500  
+       http://localhost:8500  
        
    •	Clone the repository to your local machine:
    
-        	 [https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul](https://github.com/vignesh6645/SpringGateway/tree/main/gateway-master)
+      [https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul]
           
         
