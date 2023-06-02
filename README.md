@@ -62,13 +62,6 @@ Consul is a powerful service discovery and configuration tool that enables dynam
        
    •	Clone the repository to your local machine:
    
-        	 https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
+        	 [https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul](https://github.com/vignesh6645/SpringGateway/tree/main/gateway-master)
           
         
-        	 https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
-          
-          
-         	https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
-        
-
-
