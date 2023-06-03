@@ -68,6 +68,17 @@ Consul is a powerful service discovery and configuration tool that enables dynam
        
    •	Clone the repository to your local machine:
    
-      [https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul]
+      https://github.com/vignesh6645/spring-cloud-consul-serviece-discovery-consul
           
-        
+   •	Configure the necessary properties in the application.yml file according to your requirements. Update the server port and add the Consul configuration.
+   
+  # Contributing
+  
+  •	Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+  
+  
+  Feel free to customize this content to fit your specific project needs. Embrace the power of Spring Cloud Config Gateway with Consul service discovery, CORS   support, and build scalable and resilient microservices architectures!
+  
+  #END.!
+   
+    
