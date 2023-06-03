@@ -30,22 +30,27 @@ Consul is a powerful service discovery and configuration tool that enables dynam
    # Load Balancing: 
    
    •	Consul's built-in load balancing capabilities allow for distributing traffic across multiple instances of a service. 
+   
    •	This helps optimize resource utilization and ensures that requests are evenly distributed, resulting in better performance and fault tolerance.
 
    # Health Checking: 
    
    •	Consul can periodically check the health of registered services.
+   
    •	If a service becomes unhealthy or unresponsive, Consul can automatically remove it from the service registry, preventing traffic from being routed to           it. 
+   
    •	This helps maintain system stability and reliability.
 
    # Actuator Integration:
    
    •	Spring Boot Actuator, when combined with Consul, provides powerful insights into the health, metrics, and other management endpoints of your                    services. 
+   
    •	This enables you to monitor and manage your distributed system effectively.
 
    # Collaboration Across Teams:
    
    •	Consul acts as a central registry for services, making it easier for different teams to collaborate. Teams can register and discover services                  independently, without direct knowledge of each other's implementations.
+   
    •	This decoupling facilitates efficient communication and promotes autonomy.
        
        
