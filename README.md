@@ -24,6 +24,7 @@ Consul is a powerful service discovery and configuration tool that enables dynam
    # Dynamic Scaling:
    
    •	With Consul, you can easily scale your services horizontally by creating multiple instances of a service.
+   
    •	Each instance can register itself with Consul, and the load balancer can distribute traffic among them, ensuring high availability and scalability.
        
    # Load Balancing: 
