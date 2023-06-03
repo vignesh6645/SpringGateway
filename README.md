@@ -79,6 +79,4 @@ Consul is a powerful service discovery and configuration tool that enables dynam
   
   Feel free to customize this content to fit your specific project needs. Embrace the power of Spring Cloud Config Gateway with Consul service discovery, CORS   support, and build scalable and resilient microservices architectures!
   
-  # END.!
-   
     
